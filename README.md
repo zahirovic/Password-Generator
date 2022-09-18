@@ -2,7 +2,7 @@
 
 ## Description
 
-I created a web applition to generate a secure password usng starter code. This helped me practice core concepts of JavaScript.  
+I created a web applition to generate a secure password using starter code. This helped me practice core concepts of JavaScript.  
 
 ## Installation
 
