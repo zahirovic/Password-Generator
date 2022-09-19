@@ -10,7 +10,7 @@ N/A
 
 ## Usage 
 
-To use the web application simply:
+To use the web application simply hit generate, enter the length of characters needed, click okay to the criteria you would like included/cancel to criteria you would like excluded, and the random password should appear.
 
 This website was created to practice the following skills:
 - Javascript
@@ -26,9 +26,12 @@ This website was created to practice the following skills:
 
 
 ## Credits
-
 - [Xandromus](https://github.com/coding-boot-camp/friendly-parakeet) on GitHub for the starter code 
 - [Markdown Tutorial](https://www.markdowntutorial.com/) for help on basic markdown 
+- [W3Schools JavaScript Popups](https://www.w3schools.com/js/js_popup.asp)
 
 ## Features
+- Javascript
+- Random Strings
+- Prompt/Confirms 
 
