@@ -7,7 +7,7 @@ var generateBtn = document.querySelector("#generate");
 var numbers = "0123456789";
 var upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var lowerChars = "abcdefghijklmnopqrstuvwxyz";
-var specialChars = "!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
+var specialChars = "!@#$%^&*()";
 var allChars = numbers + upperChars + lowerChars + specialChars;
 var passwordlength = 128 <= 8; 
 var random_string = '';
@@ -31,7 +31,7 @@ function writePassword() {
   };
     // added numbers characters confirm
     let numbers = false
-    if (confirm("Would you like number characters?")){
+    if (confirm("Would you like numbers?")){
       numbers = true
     };
   // added special characters confirm
@@ -39,7 +39,18 @@ function writePassword() {
   if (confirm("Would you like special characters?")){
     specialChars = true
   };
-
+ 
+  function generatePassword (passwordlength, upperChars, lowerChars, numbers, specialChars){
+    var length = passwordlength
+    random_string 
+     var chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()';
+   var charLength = chars.length;
+   var result = '';
+   for ( var i = 0; i < length; i++ ) {
+      result += chars.charAt(Math.floor(Math.random() * charLength));
+   }
+   return result;
+    }
   var password = generatePassword ()
 
   var passwordText = document.querySelector("#password");
@@ -48,15 +59,13 @@ function writePassword() {
 
 }
 
-function generatePassword (passwordlength, upperChars, lowerChars, numbers, specialChars){
-random_string 
-}
+
 
 // Add event listener to generate button
 // added alert
 generateBtn.addEventListener("click", writePassword)
 generateBtn.addEventListener("click", function(
 
-  ){alert(generatePassword) 
+  ){alert(writepassword) 
   });
 
