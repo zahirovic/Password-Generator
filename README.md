@@ -33,6 +33,5 @@ This website was created to practice the following skills:
 
 ## Features
 - Javascript
-- Random Strings
 - JavaScript Prompt/Confirms 
 
