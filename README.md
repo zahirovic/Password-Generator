@@ -21,7 +21,7 @@ This website was created to practice the following skills:
 - The actual product can be found **[here](https://zahirovic.github.io/Password-Generator/)** and should look along the lines of this depending on device screen size:
 
 
-![Password generator example](assets/images/password-generator-screenshot.png)
+![Password generator example](zahirovic/assets/images/password-generator-screenshot.png)
 
 
 
