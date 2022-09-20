@@ -12,8 +12,6 @@ var allChars = numbers + upperChars + lowerChars + specialChars;
 var passwordlength = 128 <= 8; 
 var random_string = '';
 
-
-
   
 // Write password to the #password input
 function writePassword() {
@@ -38,34 +36,31 @@ function writePassword() {
   let specialChars = false
   if (confirm("Would you like special characters?")){
     specialChars = true
-  };
- 
-  function generatePassword (passwordlength, upperChars, lowerChars, numbers, specialChars){
-    var length = passwordlength
-    random_string 
-     var chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()';
-   var charLength = chars.length;
-   var result = '';
-   for ( var i = 0; i < length; i++ ) {
-      result += chars.charAt(Math.floor(Math.random() * charLength));
-   }
-   return result;
-    }
+  }
   var password = generatePassword ()
 
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
 
-}
+};
+// added random string and return statement
+  function generatePassword (passwordlength, upperChars, lowerChars, numbers, specialChars){
+    var length = parseInt(passwordlength);
+     var chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()';
+   var charLength = chars.length;
+   var result = "";
+   for ( var i = 0; i < length; i++ ) {
+      result.append(chars.charAt(Math.floor(Math.random() * charLength)));
+   }
+console.log(length)
+
+
+   return result;
+    }
 
 
 
 // Add event listener to generate button
-// added alert
 generateBtn.addEventListener("click", writePassword)
-generateBtn.addEventListener("click", function(
-
-  ){alert(writepassword) 
-  });
 
