@@ -29,9 +29,8 @@ This website was created to practice the following skills:
 - [Xandromus](https://github.com/coding-boot-camp/friendly-parakeet) on GitHub for the starter code 
 - [Markdown Tutorial](https://www.markdowntutorial.com/) for help on basic markdown 
 - [W3Schools JavaScript Popups](https://www.w3schools.com/js/js_popup.asp)
+- [W3Schools JavaScript parseInt()](https://www.w3schools.com/jsref/jsref_parseint.asp)
 
 ## Features
 - Javascript
-- Random Strings
 - JavaScript Prompt/Confirms 
-
