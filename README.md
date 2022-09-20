@@ -34,4 +34,3 @@ This website was created to practice the following skills:
 ## Features
 - Javascript
 - JavaScript Prompt/Confirms 
-
